@@ -2,7 +2,7 @@
 import imagesService from './services-api/apiService';
 import imageItemTemlate from '../templates/image-item.hbs';
 import { notice, success, error } from './pnotify';
-import basicLightbox from './basic -lightbox';
+import basicLightbox from './basic-lightbox';
 
 const debounce = require('lodash.debounce');
 
